@@ -1,0 +1,57 @@
+.main-content {
+  margin-top: 80px;
+  position: relative;
+}
+
+.ai-demo {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.ai-demo-light{
+  background: rgba(192, 192, 192, 0.3);
+}
+
+.ai-demo img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+.ai-demo img:hover{
+  transform: scale(1.05);
+}
+
+.floating-ui {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+.floating-ui-light{
+  background-color: rgba(192, 192, 192, 0.6);
+}
+.floating-ui.top-left {
+  top: 20px;
+  left: 20px;
+}
+
+.floating-ui.bottom-right {
+  bottom: 20px;
+  right: 20px;
+}
+
+.floating-icon {
+  width: 24px;
+  height: 24px;
+  background: var(--gradient-1);
+  border-radius: 50%;
+  margin-right: 10px;
+}
